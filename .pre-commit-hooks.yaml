@@ -1,3 +1,9 @@
+-   id: dep-ensure
+    name: 'dep ensure'
+    entry: run-dep-ensure.sh
+    files: '\.go$'
+    language: 'script'
+    description: "Runs `dep ensure`, requires Gopkg.toml and golang"
 -   id: go-fmt
     name: 'go fmt'
     entry: run-go-fmt.sh
